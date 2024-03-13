@@ -1,0 +1,135 @@
+body{
+    background-color:hsl(0, 0%, 94%);
+}
+
+.mainmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px 30px 40% 30px;
+    height: 450px;
+    width: 700px;
+}
+.melethe{
+    display: flex;
+    gap:15px;
+    margin-left: 15px;
+
+
+}
+.breaker{
+    width: 560px;
+    margin-left: 6px;
+    margin-top: 25px;
+    color: hsl(0, 0%, 8%);
+}
+
+.nadukk{
+    display: flex;
+}
+
+button{
+
+    border-radius: 50%;
+    background-color:hsl(259, 100%, 65%);
+    padding: 12px;
+    border: 0;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    height:90px;
+    margin-left: 10px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    height:90px;
+    margin-left:10px ;
+}
+.third{
+    display: flex;
+    align-items: center;
+    height:90px;
+    margin-left: 10px;
+}
+
+.ansyears{
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+}
+.ansmonths{
+    font-family: "Poppins",sans-serif;
+    font-weight:bolder;
+    font-size:4em;
+}
+.ansdays{
+    font-family:"Poppins",sans-serif;
+    font-weight:bolder;
+    font-size:4em;
+}
+
+.minus{
+    font-family: "Poppins",sans-serif;
+    color:hsl(259, 100%, 65%);
+    font-weight: bolder;
+    font-size: 6em;
+}
+
+.noka1{
+    margin-bottom: px;
+}
+
+
+p{
+    font-family: "Poppins";
+    font-size:15px;
+    font-weight: bolder;
+    color: hsl(0, 1%, 44%);
+}
+
+input{
+    height:49px
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.month{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.year{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+:placeholder-shown{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+input{
+    width: 150px;
+    border-radius: 15px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+ }
+
